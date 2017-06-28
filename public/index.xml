@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daloha Rodriguez Molina on Daloha Rodriguez Molina</title>
+    <link>/</link>
+    <description>Recent content in Daloha Rodriguez Molina on Daloha Rodriguez Molina</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Daloha Rodriguez-Molina</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWARE-WWTP</title>
+      <link>/project/aware/</link>
+      <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/aware/</guid>
+      <description>&lt;p&gt;My PhD research project is related to antibiotic resistance in employees from wastewater treatment plants (WWTP). Antibiotic resistance is the scariest threat of modern medicine. Antibiotics have existed for less than 100 years, and resistance rates are already alarmingly high. This happens because bacteria are incredibly effective at coming up with and trasmitting antibiotic resistance genes. This process gets exacerbated when bacteria are exposed to antibiotics but do not die completely. An important carrier of antibiotic residuals and resistance genes is water, and WWTPs are known hotspots for these residuals.&lt;/p&gt;
+
+&lt;p&gt;Therefore, we&amp;rsquo;ve developed a consortium of four countries: Germany, Romania, the Netherlands, and Sweden. We want to determine:
+* Whether or not there is a higher prevalence of resistant species and resistant genes in WWTPs
+* Whether or not the risk increases with closeness to the plants&lt;/p&gt;
+
+&lt;p&gt;The project only started on June 1st 2017, but we have been working on it since earlier this year (2017).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An educational intervention to improve knowledge about prevention against occupational asthma and allergies using targeted maximum likelihood estimation</title>
+      <link>/publication/tmlezenodo/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/tmlezenodo/</guid>
+      <description>&lt;p&gt;METHODS. Farm apprentices at Bavarian farm schools were asked to complete a questionnaire evaluating their knowledge about preventive measures against occupational asthma and allergies (use of personal protective equipment, personal and workplace hygiene measures). Eligible apprentices were randomized by school site to either a control or an intervention group. The intervention consisted of a short educational video about use of preventive measures. Six months after the intervention, subjects were asked to complete a post-intervention questionnaire. Of the 116 apprentices (70 intervention group, 46 control group) who answered the baseline questionnaire only 47 subjects (41%; 17 intervention group, 30 control group) also completed the follow-up questionnaire. We therefore estimated the causal effect of the intervention using targeted maximum likelihood estimation. Models were controlled for potential confounders.&lt;/p&gt;
+
+&lt;p&gt;RESULTS. Based on the targeted maximum likelihood estimation, the intervention would have increased the proportion of correct answers on all six preventive measures by 18.4% (95% confidence interval: 7.3% - 29.6%) had all participants received the intervention versus had they all been in the control group.&lt;/p&gt;
+
+&lt;p&gt;CONCLUSIONS. These findings indicate the improvement of knowledge by the educational intervention.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Role of Adiponectin in Endothelial Dysfunction and Hypertension</title>
+      <link>/publication/adiponectinspringer/</link>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/adiponectinspringer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incretin-Based Therapy for Type 2 Diabetes Mellitus: Pancreatic and Extrapancreatic Effects</title>
+      <link>/publication/incretinsamjther/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/incretinsamjther/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single-Nucleotide Polymorphisms in Adiponectin, AdipoR1, and AdipoR2 Genes: Insulin Resistance and Type 2 Diabetes Mellitus Candidate Genes</title>
+      <link>/publication/adiporamjther/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/adiporamjther/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

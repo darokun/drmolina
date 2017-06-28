@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Daloha Rodriguez Molina</title>
+    <link>/page/</link>
+    <description>Recent content in Pages on Daloha Rodriguez Molina</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Daloha Rodriguez-Molina</copyright>
+    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/page/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>/page/about/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/page/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;slender&#34;&gt;Slender&lt;/h1&gt;
+
+&lt;p&gt;Minimalist theme for &lt;a href=&#34;http://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://github.com/chriskempson/base16&#34; target=&#34;_blank&#34;&gt;base16&lt;/a&gt; color schemes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://crimsonray.github.io/slender&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/screenshot.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Responsive&lt;/li&gt;
+&lt;li&gt;Pagination&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/chriskempson/base16&#34; target=&#34;_blank&#34;&gt;base16&lt;/a&gt; color schemes&lt;/li&gt;
+&lt;li&gt;Code/syntax highlighting with &lt;a href=&#34;https://highlightjs.org/&#34; target=&#34;_blank&#34;&gt;highlight.js 9.0.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Social links with &lt;a href=&#34;https://fortawesome.github.io/Font-Awesome/&#34; target=&#34;_blank&#34;&gt;FontAwesome 4.5.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Google Analytics integration&lt;/li&gt;
+&lt;li&gt;Proper meta tags for SEO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;color-schemes&#34;&gt;Color Schemes&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/slender-color-schemes.png&#34; alt=&#34;slender-color-schemes&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Make a new Hugo site&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;$ hugo new site your_site/
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install Slender&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;$ cd your_site/
+$ mkdir themes
+$ cd themes
+$ git clone https://github.com/CrimsonRay/slender
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;configuration&#34;&gt;Configuration&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;# config.toml
+# https://github.com/CrimsonRay/slender
+
+baseurl = &amp;quot;http://url-to-your-site.com/&amp;quot;
+title = &amp;quot;Your Title&amp;quot;
+languageCode = &amp;quot;en-US&amp;quot;
+MetaDataFormat = &amp;quot;toml&amp;quot;
+theme = &amp;quot;slender&amp;quot;
+paginate = 3
+PaginatePath = &amp;quot;/&amp;quot;
+
+[author]
+    name = &amp;quot;Your Name&amp;quot;
+
+[permalinks]
+
+    # Permalink format for pages.
+    page = &amp;quot;/:title/&amp;quot;
+
+    # Permalink format for blog posts.
+    post = &amp;quot;/article/:title/&amp;quot;
+
+[params]
+
+    # Change the color scheme of Slender.
+    # See above for preview and list of color schemes.
+    colorscheme = &amp;quot;white&amp;quot;
+
+    # Tagline; HTML accepted here. Keep it concise.
+    tagline = &amp;quot;Your Tagline&amp;quot;
+
+    # Footer; Markdown accepted here.
+    footer = &amp;quot;Copyright 2015 &amp;amp;copy; Your Name&amp;quot;
+
+    # Description and keywords for &amp;lt;meta&amp;gt; tags.
+    # Remember to set this for your main page.
+    # This will be overridden by whatever is set by the page or post,
+    # defined by `description` and `keywords` variables in the front matter
+    # of the markdown file.
+    description = &amp;quot;Default Page Description&amp;quot;
+    keywords = &amp;quot;default,page,keywords&amp;quot;
+
+    # Social links, must be full URLs (e.g. https://github.com/CrimsonRay/).
+    # Remove, comment, or leave blank any field to leave them out.
+    email = &amp;quot;mailto:your-email&amp;quot;
+    github = &amp;quot;url-to-your-github&amp;quot;
+    bitbucket = &amp;quot;url-to-your-bitbucket&amp;quot;
+    twitter = &amp;quot;url-to-your-twitter&amp;quot;
+    stackoverflow = &amp;quot;url-to-your-stackoverflow&amp;quot;
+    linkedin = &amp;quot;url-to-your-linkedin&amp;quot;
+    facebook = &amp;quot;url-to-your-facebook&amp;quot;
+
+    # Google Analytics
+    # Remove, comment, or leave it blank if you don&#39;t have one.
+    ganalytics = &amp;quot;your-google-analytics-tracking-code&amp;quot;
+
+[menu]
+
+    # Menu for the nav bar.
+    # There must always be one item present (e.g. home).
+    [[menu.main]]
+    identifier = &amp;quot;home&amp;quot;
+    name       = &amp;quot;home&amp;quot;
+    url        = &amp;quot;/&amp;quot;
+    weight     = 0
+
+    [[menu.main]]
+    identifier = &amp;quot;about&amp;quot;
+    name       = &amp;quot;about&amp;quot;
+    url        = &amp;quot;/about/&amp;quot;
+    weight     = 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Making a new post / article&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;$ hugo new post/hello.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Making a new page&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;$ hugo new page/about.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Add the new page to navbar in &lt;code&gt;config.toml&lt;/code&gt; under &lt;code&gt;[menu]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
+
+&lt;p&gt;MIT &amp;copy; 2015 CrimsonRay&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

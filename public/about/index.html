@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="about &middot; Slender ">
+        <meta property="og:site_name" content="Slender"/>
+        <meta property="og:description" content="About Slender">
+        <meta property="og:url" content="/slender/about/" />
+        <meta property="og:locale" content="en-US">
+        <meta name="author" content="CrimsonRay">
+        <meta name="description" content="About Slender">
+        <meta name="keywords" content="hugo, slender, about">
+        <meta name="generator" content="Hugo 0.24.1" />
+        <link rel="icon" href="/slender/assets/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/slender/css/slender-base.css">
+        <link rel="stylesheet" href="/slender/css/slender-color-schemes.css">
+        <link rel="stylesheet" href="/slender/css/font-awesome-4.5.0.min.css">
+        <link rel="stylesheet" href="/slender/css/highlight-9.0.0-default.min.css">
+        <title>
+            
+                about &middot; Slender
+            
+        </title>
+    </head>
+    <body class="color-scheme-white">
+        <div class="container">
+            <header>
+                <nav>
+                    <ul><li><a href="/slender/about/">about</a></li><li><a href="/slender">home</a></li></ul>
+                </nav>
+                
+                    <h1 class="page-title">about</h1>
+                
+            </header>
+
+<article class="article-content">
+    
+
+<h1 id="slender">Slender</h1>
+
+<p>Minimalist theme for <a href="http://gohugo.io/">Hugo</a> with <a href="https://github.com/chriskempson/base16">base16</a> color schemes.</p>
+
+<p><a href="https://crimsonray.github.io/slender">Demo</a></p>
+
+<h3 id="screenshot">Screenshot</h3>
+
+<p><img src="../images/screenshot.png" alt="screenshot" /></p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+<li>Responsive</li>
+<li>Pagination</li>
+<li><a href="https://github.com/chriskempson/base16">base16</a> color schemes</li>
+<li>Code/syntax highlighting with <a href="https://highlightjs.org/">highlight.js 9.0.0</a></li>
+<li>Social links with <a href="https://fortawesome.github.io/Font-Awesome/">FontAwesome 4.5.0</a></li>
+<li>Google Analytics integration</li>
+<li>Proper meta tags for SEO</li>
+</ul>
+
+<h3 id="color-schemes">Color Schemes</h3>
+
+<p><img src="../images/slender-color-schemes.png" alt="slender-color-schemes" /></p>
+
+<h3 id="installation">Installation</h3>
+
+<ol>
+<li><p>Make a new Hugo site</p>
+
+<pre><code class="language-none">$ hugo new site your_site/
+</code></pre></li>
+
+<li><p>Install Slender</p>
+
+<pre><code class="language-none">$ cd your_site/
+$ mkdir themes
+$ cd themes
+$ git clone https://github.com/CrimsonRay/slender
+</code></pre></li>
+</ol>
+
+<h3 id="configuration">Configuration</h3>
+
+<pre><code class="language-toml"># config.toml
+# https://github.com/CrimsonRay/slender
+
+baseurl = &quot;http://url-to-your-site.com/&quot;
+title = &quot;Your Title&quot;
+languageCode = &quot;en-US&quot;
+MetaDataFormat = &quot;toml&quot;
+theme = &quot;slender&quot;
+paginate = 3
+PaginatePath = &quot;/&quot;
+
+[author]
+    name = &quot;Your Name&quot;
+
+[permalinks]
+
+    # Permalink format for pages.
+    page = &quot;/:title/&quot;
+
+    # Permalink format for blog posts.
+    post = &quot;/article/:title/&quot;
+
+[params]
+
+    # Change the color scheme of Slender.
+    # See above for preview and list of color schemes.
+    colorscheme = &quot;white&quot;
+
+    # Tagline; HTML accepted here. Keep it concise.
+    tagline = &quot;Your Tagline&quot;
+
+    # Footer; Markdown accepted here.
+    footer = &quot;Copyright 2015 &amp;copy; Your Name&quot;
+
+    # Description and keywords for &lt;meta&gt; tags.
+    # Remember to set this for your main page.
+    # This will be overridden by whatever is set by the page or post,
+    # defined by `description` and `keywords` variables in the front matter
+    # of the markdown file.
+    description = &quot;Default Page Description&quot;
+    keywords = &quot;default,page,keywords&quot;
+
+    # Social links, must be full URLs (e.g. https://github.com/CrimsonRay/).
+    # Remove, comment, or leave blank any field to leave them out.
+    email = &quot;mailto:your-email&quot;
+    github = &quot;url-to-your-github&quot;
+    bitbucket = &quot;url-to-your-bitbucket&quot;
+    twitter = &quot;url-to-your-twitter&quot;
+    stackoverflow = &quot;url-to-your-stackoverflow&quot;
+    linkedin = &quot;url-to-your-linkedin&quot;
+    facebook = &quot;url-to-your-facebook&quot;
+
+    # Google Analytics
+    # Remove, comment, or leave it blank if you don't have one.
+    ganalytics = &quot;your-google-analytics-tracking-code&quot;
+
+[menu]
+
+    # Menu for the nav bar.
+    # There must always be one item present (e.g. home).
+    [[menu.main]]
+    identifier = &quot;home&quot;
+    name       = &quot;home&quot;
+    url        = &quot;/&quot;
+    weight     = 0
+
+    [[menu.main]]
+    identifier = &quot;about&quot;
+    name       = &quot;about&quot;
+    url        = &quot;/about/&quot;
+    weight     = 1
+</code></pre>
+
+<h3 id="usage">Usage</h3>
+
+<p><strong>Making a new post / article</strong></p>
+
+<pre><code class="language-none">$ hugo new post/hello.md
+</code></pre>
+
+<p><strong>Making a new page</strong></p>
+
+<pre><code class="language-none">$ hugo new page/about.md
+</code></pre>
+
+<p>Add the new page to navbar in <code>config.toml</code> under <code>[menu]</code>.</p>
+
+<h3 id="license">License</h3>
+
+<p>MIT &copy; 2015 CrimsonRay</p>
+
+</article>
+        </div>
+        <footer>
+            <p>Copyright 2015 &copy; CrimsonRay</p>
+        </footer>
+        <script src="/slender/js/highlight-9.0.0.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        
+    </body>
+</html>

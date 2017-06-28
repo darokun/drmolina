@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 on Daloha Rodriguez Molina</title>
+    <link>/publication_types/7/</link>
+    <description>Recent content in 7 on Daloha Rodriguez Molina</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Daloha Rodriguez-Molina</copyright>
+    <lastBuildDate>Thu, 09 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/7/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>An educational intervention to improve knowledge about prevention against occupational asthma and allergies using targeted maximum likelihood estimation</title>
+      <link>/publication/tmlezenodo/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/tmlezenodo/</guid>
+      <description>&lt;p&gt;METHODS. Farm apprentices at Bavarian farm schools were asked to complete a questionnaire evaluating their knowledge about preventive measures against occupational asthma and allergies (use of personal protective equipment, personal and workplace hygiene measures). Eligible apprentices were randomized by school site to either a control or an intervention group. The intervention consisted of a short educational video about use of preventive measures. Six months after the intervention, subjects were asked to complete a post-intervention questionnaire. Of the 116 apprentices (70 intervention group, 46 control group) who answered the baseline questionnaire only 47 subjects (41%; 17 intervention group, 30 control group) also completed the follow-up questionnaire. We therefore estimated the causal effect of the intervention using targeted maximum likelihood estimation. Models were controlled for potential confounders.&lt;/p&gt;
+
+&lt;p&gt;RESULTS. Based on the targeted maximum likelihood estimation, the intervention would have increased the proportion of correct answers on all six preventive measures by 18.4% (95% confidence interval: 7.3% - 29.6%) had all participants received the intervention versus had they all been in the control group.&lt;/p&gt;
+
+&lt;p&gt;CONCLUSIONS. These findings indicate the improvement of knowledge by the educational intervention.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Incretin-Based Therapy for Type 2 Diabetes Mellitus: Pancreatic and Extrapancreatic Effects</title>
+      <link>/publication/incretinsamjther/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/incretinsamjther/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single-Nucleotide Polymorphisms in Adiponectin, AdipoR1, and AdipoR2 Genes: Insulin Resistance and Type 2 Diabetes Mellitus Candidate Genes</title>
+      <link>/publication/adiporamjther/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/adiporamjther/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Daloha Rodriguez Molina</title>
+    <link>/publication_types/1/</link>
+    <description>Recent content in 1 on Daloha Rodriguez Molina</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Daloha Rodriguez-Molina</copyright>
+    <lastBuildDate>Thu, 09 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>An educational intervention to improve knowledge about prevention against occupational asthma and allergies using targeted maximum likelihood estimation</title>
+      <link>/publication/tmle/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/tmle/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

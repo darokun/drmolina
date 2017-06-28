@@ -1,0 +1,171 @@
+/*************************************************
+ *  A custom theme for Hugo Academic
+ *  Set `custom_css = ["blue.css"] in `config.toml`.
+ *  Then save this file as `/static/css/blue.css` relative to your website root (i.e. not in `themes/academic` directory).
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+/* from alisons's to daloha's*/
+/*  change all rgb(127,140,180 --> to rgb(0,173,203) */
+/*  change all rgb(52,60,86) --> to rgb(9,105,122) */
+/*  change all rgba(127,140,180,0.6) --> rgba(0,173,203,0.6) */
+/*  change all rgba(52,60,86,1) --> rgba(9,105,122,1) */
+
+/*************************************************
+ *  Core
+ **************************************************/
+
+
+/* Headings */
+
+a,
+h3.article-title a:hover {
+    color: rgb(9,105,122); 
+}
+
+
+a:hover,
+a:focus {
+  color: rgb(246,162,33);
+}
+
+/* remember to delete or comment out this value in themes > hugo-academic > static > css > hugo-academic.css */
+#profile .portrait-title h3 {
+  color: rgb(246,162,33);
+
+}
+/*************************************************
+ *  Blog Articles
+ **************************************************/
+
+.article-metadata a:hover {
+  color: rgb(0,173,203);
+}
+
+/*************************************************
+ *  Button Primary: Color Override
+ **************************************************/
+
+.btn-primary {
+  border-color: rgb(0,173,203);
+  /*background: rgb(0,173,203);*/
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background: rgb(0,173,203);
+}
+
+
+/*************************************************
+ *  Button Outlines
+ **************************************************/
+
+
+.btn-primary.btn-outline {
+  color: rgb(9,105,122);
+  border-color: rgb(9,105,122);
+}
+
+/*************************************************
+ *  Navigation Bar
+ **************************************************/
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: rgb(246,162,33);
+  font-weight: 700;
+  background-color: transparent !important; /* Override Bootstrap. */
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(246,162,33);
+  outline: 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+    color: rgb(246,162,33);
+    background-color: transparent;
+  }
+
+}
+
+/*************************************************
+ *  Toolbar Buttons
+ **************************************************/
+ 
+
+.btn-toolbar .btn.btn-primary {
+  background: rgb(0,173,203);
+}
+
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+  background-color: rgba(0,173,203,0.6);
+}
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+  background-color: rgba(9,105,122,1);
+}
+
+/*************************************************
+ *  Publications
+ **************************************************/
+
+.pub-icon {
+  color: rgb(9,105,122);
+  font-size: 0.81em;
+  padding-top: 6px;
+}
+
+.pub-list-item .pub-publication {
+  color: rgb(246,162,33);
+  font-size: 1rem;
+}
+
+/* remember to delete or comment out this value in themes > hugo-academic > static > css > hugo-academic.css */
+.pub-authors {
+  color: rgb(9,105,122);
+}
+
+/*************************************************
+ *  Fonts (note: update link @ themes/hugo-academic/layouts/partials)
+ **************************************************/
+
+html {
+    font-family: 'PT Sans', sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  color: rgba(107,107,108,1);
+  line-height: 1.65;
+}
+
+/*************************************************
+ *  Alerts
+ **************************************************/
+
+
+.alert-note {
+  color: #fff;
+  background-color: rgb(0,173,203); 
+  border-color: #bce8f1;
+}
+
+.alert-warning {
+  color: #fff;
+  background-color: rgb(238, 88, 99); 
+  border-color: #ebccd1;
+}
