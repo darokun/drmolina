@@ -7,5 +7,6 @@ tags = []
 [header]
 image = ""
 caption = ""
+preview = ""
 
 +++
