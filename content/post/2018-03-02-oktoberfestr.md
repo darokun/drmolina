@@ -32,25 +32,25 @@ So, [here](https://darokun.shinyapps.io/OktoberfestR/) it is! My OktoberfestR ap
 ![OktoberfestR Shiny App pic](/img/posts/2018-03-02-oktoberfestr-OktoberfestR_screenshot.png)
 
 The app takes data from the Oktoberfest since 1985 and until 2016 (so far). It has eight variables:
-* The year of the Oktoberfest
-* The duration of the festival in days 
-* Visitors for each year 
-* Mean visitors per day for each year 
-* Mean price for one beer (1 Liter) for each year 
-* Whole amount of beer sold for each year in Liter 
-* Mean price for one chicken for each year 
-* Whole amount of chickens sold for each year 
+* The year of the Oktoberfest     
+* The duration of the festival in days      
+* Visitors for each year      
+* Mean visitors per day for each year      
+* Mean price for one beer (1 Liter) for each year      
+* Whole amount of beer sold for each year in Liter      
+* Mean price for one chicken for each year      
+* Whole amount of chickens sold for each year      
 
 The user can interactively make a subset of the data to visualize only a specified range of years, and can then choose from eight different visualizations:
-* Number of visitors per year
-* Divergence of visitors compared to the mean
-* Beer price per year
-* Beer price compared to previous year
-* Beer sold on average (Liters/day)
-* Beer sold per visitor per day (Liters/day)
-* Chicken price per year
-* Chicken price compared to previous year
+* Number of visitors per year     
+* Divergence of visitors compared to the mean     
+* Beer price per year     
+* Beer price compared to previous year     
+* Beer sold on average (Liters/day)     
+* Beer sold per visitor per day (Liters/day)     
+* Chicken price per year     
+* Chicken price compared to previous year     
 
 Plus, the user can also change the fill color of the bars using the `colourpicker()` widget for Shiny.
 
-Prost! :beers:
+### Prost! :beers:
