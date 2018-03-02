@@ -7,7 +7,7 @@ draft = false
 
 title = "Recent Posts"
 subtitle = ""
-widget = "post"
+widget = "posts"
 
 # Order that this section will appear in.
 weight = 40
