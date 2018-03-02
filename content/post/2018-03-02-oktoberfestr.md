@@ -10,8 +10,6 @@ tags:
   - shiny
   - rstats
   - rladies
-  - beer
-  - oktoberfest
   - data analysis
 ---
 
