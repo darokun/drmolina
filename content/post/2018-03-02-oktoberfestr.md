@@ -1,6 +1,7 @@
 ---
 title: OktoberfestR
 author: Daloha Rodríguez-Molina
+draft: FALSE
 date: '2018-03-02'
 slug: oktoberfestr
 categories:
