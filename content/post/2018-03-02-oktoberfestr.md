@@ -20,7 +20,7 @@ Back in September 2017, I tried building a [Shiny App](https://shiny.rstudio.com
 ### At the R-Ladies Munich event
 I still decided to present some analysis of the Oktoberfest data, based on a [blog post](https://gresch.github.io/2017/09/14/201701oktoberfest1985-2016/) by @[gresch](https://twitter.com/gre__sch). I couldn't present the shiny app, but I did talk about `shiny` and how to build a simple web application (something that I could do and show). 
 
-![Me presenting Oktoberfest data analysis at an R-Ladies Munich event, September 2017](/img/rladiesmunich_oktoberfestr.jpeg)
+![Me presenting Oktoberfest data analysis at an R-Ladies Munich event, September 2017](https://secure.meetupstatic.com/photos/event/2/4/f/8/highres_465429464.jpeg)
 
 ### Patience, my young padawan
 I was very dissapointed, but then I realized that I needed to learn more about `shiny` before giving up. As part of my new year's resolutions, I got a one-year subscription at [DataCamp](https://www.datacamp.com/). What a game-changer!      
@@ -29,7 +29,7 @@ I did two `shiny` courses. The [first one] with [Mine Centikaya-Rundel](https://
 ### Ein Prosit der Gemütlichkeit!
 So, [here](https://darokun.shinyapps.io/OktoberfestR/) it is! My OktoberfestR app! 
 
-![OktoberfestR Shiny App pic](/img/OktoberfestR_screenshot.png)
+![OktoberfestR Shiny App pic](/img/posts/2018-03-02-oktoberfestr-OktoberfestR_screenshot.png)
 
 The app takes data from the Oktoberfest since 1985 and until 2016 (so far). It has eight variables:
 * The year of the Oktoberfest
