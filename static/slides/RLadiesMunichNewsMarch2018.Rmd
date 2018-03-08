@@ -5,8 +5,8 @@ author: "Daloha Rodriguez-Molina <br> <br/> Slides available at <br/> https://bi
 date: "March 2018"
 output:
   xaringan::moon_reader:
-    css: ["default", "rladies", "rladies-fonts"]
     lib_dir: libs
+    css: ["default", "rladies", "rladies-fonts"]
     nature:
       highlightStyle: github
       highlightLines: true
