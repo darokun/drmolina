@@ -1,0 +1,109 @@
+---
+title: "R-Ladies Munich <br/> News"
+subtitle: "⚔<br/>Made with xaringan"
+author: "Daloha Rodriguez-Molina <br> <br/> Slides available at <br/> https://bit.ly/rladies-munich-news-march2018"
+date: "March 2018"
+output:
+  xaringan::moon_reader:
+    css: ["default", "rladies", "rladies-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(icon)
+```
+class: center, middle
+
+# News:
+
+## 1. R-Ladies Global #IWD2018 on twitter
+
+## 2. Slides with xaringan + R-Ladies theme
+
+---
+
+class: inverse, center, middle
+
+# 1. R-Ladies Global 
+## #IWD2018 on twitter
+
+---
+
+background-image: url(images/1.png)
+background-position: 50% 20%
+class: center, bottom, inverse
+
+---
+
+background-image: url(images/2.png)
+background-position: 50% 12%
+class: center, bottom, inverse
+
+---
+
+background-image: url(images/3.png)
+background-position: 50% 12%
+background-size: 80%
+class: center, bottom, inverse
+
+---
+
+background-image: url(images/4.png)
+background-position: 50% 12%
+class: center, bottom, inverse
+
+---
+
+background-image: url(images/5.png)
+background-position: 50% 12%
+background-size: 80%
+class: center, bottom, inverse
+
+---
+class: center, middle
+
+# Follow @rladies_iwd2018
+
+### #IWD2018
+
+---
+class: inverse, center, middle
+
+# 2. Slides with xaringan and R-Ladies theme
+
+## Resources
+
+<a href="https://alison.rbind.io/slides/rladies-demo-slides.html#1"><i class="fa fa-link fa-fw"></i>&nbsp; Alison Hill's demo slides: https://bit.ly/rladies-demo-slides</a><br>
+
+<a href="https://alison.rbind.io/post/r-ladies-slides/"><i class="fa fa-link fa-fw"></i>&nbsp; Alison's blog post: https://alison.rbind.io/post/r-ladies-slides/</a><br>
+
+<a href="https://bit.ly/shiny-csp18"><i class="fa fa-link fa-fw"></i>&nbsp; Jessica Minier's presentation about shiny: https://bit.ly/shiny-csp18</a><br>
+
+---
+
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+Built with [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+
+---
+
+class: inverse, center, middle
+
+# Keep in touch!
+
+`r icon::fa("paper-plane")` <a href="mailto:daloha@rladies.org"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; daloha@rladies.org</a><br>
+`r icon::fa("paper-plane")` <a href="mailto:munich@rladies.org"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; munich@rladies.org</a><br>
+`r icon::fa("link")` <a href="https://drmolina.netlify.com"><i class="fa fa-link fa-fw"></i>&nbsp; drmolina.netlify.com</a><br>
+`r icon::fa("twitter")` <a href="http://twitter.com/darokun"><i class="fa fa-twitter fa-fw"></i>&nbsp; @darokun</a><br>
+`r icon::fa("github")` <a href="http://github.com/darokun"><i class="fa fa-github fa-fw"></i>&nbsp; @darokun</a><br>
+
+
