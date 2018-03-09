@@ -113,10 +113,10 @@ class: inverse, center, middle
 
 # Keep in touch!
 
-<a href="mailto:daloha@rladies.org"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; daloha@rladies.org</a><br>
-<a href="mailto:munich@rladies.org"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; munich@rladies.org</a><br>
-<a href="https://drmolina.netlify.com"><i class="fa fa-link fa-fw"></i>&nbsp; drmolina.netlify.com</a><br>
-<a href="http://twitter.com/darokun"><i class="fa fa-twitter fa-fw"></i>&nbsp; @darokun</a><br>
-<a href="http://github.com/darokun"><i class="fa fa-github fa-fw"></i>&nbsp; @darokun</a><br>
+<a href="mailto:daloha@rladies.org"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; email: daloha@rladies.org</a><br>
+<a href="mailto:munich@rladies.org"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; email: munich@rladies.org</a><br>
+<a href="https://drmolina.netlify.com"><i class="fa fa-link fa-fw"></i>&nbsp; web: drmolina.netlify.com</a><br>
+<a href="http://twitter.com/darokun"><i class="fa fa-twitter fa-fw"></i>&nbsp; twitter: @darokun</a><br>
+<a href="http://github.com/darokun"><i class="fa fa-github fa-fw"></i>&nbsp; github: @darokun</a><br>
 
 
