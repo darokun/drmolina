@@ -81,8 +81,10 @@ class: center, bottom, inverse
 class: center, middle
 
 # Follow @rladies_iwd2018
-
 ### #IWD2018
+
+# Add your info to the directory!
+<a href="https://rladies.org/directory/"><i class="fa fa-link fa-fw"></i>&nbsp; https://rladies.org/directory/</a><br>
 
 ---
 class: inverse, center, middle
